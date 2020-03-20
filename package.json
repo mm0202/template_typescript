@@ -1,0 +1,15 @@
+{
+  "name": "name",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "jest --maxWorkers=10",
+    "test-watch": "jest --watch --maxWorkers=10",
+    "ci-test": "jest --forceExit --detectOpenHandles --maxWorkers=10"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.8.3"
+  }
+}
