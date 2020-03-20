@@ -4,7 +4,9 @@
   "scripts": {
     "test": "jest --maxWorkers=10",
     "test-watch": "jest --watch --maxWorkers=10",
-    "ci-test": "jest --forceExit --detectOpenHandles --maxWorkers=10"
+    "ci-test": "jest --forceExit --detectOpenHandles --maxWorkers=10",
+    "build": "tsc",
+    "watch": "tsc -w"
   },
   "devDependencies": {
     "@types/jest": "^24.9.1",

@@ -1,16 +1,25 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
     "target": "es5",
+    "lib": [
+      "ES2015",
+      "dom"
+    ],
     "module": "commonjs",
     "allowJs": true,
     "checkJs": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
     "removeComments": true,
     "strict": true,
     "esModuleInterop": true,
     "inlineSourceMap": true,
-    "forceConsistentCasingInFileNames": true
-  }
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": []
 }
